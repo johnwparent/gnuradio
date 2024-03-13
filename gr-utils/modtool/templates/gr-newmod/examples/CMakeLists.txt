@@ -1,1 +1,2 @@
-install(FILES DESTINATION share/gnuradio/examples/howto)
+file(GLOB EXAMPLE_FILES "*")
+install(FILES ${EXAMPLE_FILES} share/gnuradio/examples/howto)
